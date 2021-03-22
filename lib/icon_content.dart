@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_bmi_calculator/constants.dart';
 
 class IconContent extends StatelessWidget {
   final IconData icon;
@@ -23,10 +23,7 @@ class IconContent extends StatelessWidget {
         ),
         Text(
           label,
-          style: GoogleFonts.poppins(
-            color: Color(0xFF8D8E98),
-            fontSize: 18.0,
-          ),
+          style: kLabelTextStyle,
         ),
       ],
     );
