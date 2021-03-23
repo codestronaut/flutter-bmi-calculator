@@ -4,7 +4,7 @@
 [<img alt="Flutter" src="https://img.shields.io/badge/Flutter%20-%2302569B.svg?&style=for-the-badge&logo=Flutter&logoColor=white" />][flutter]
 
 ### What App Is This? 
-Hello there, today I continue my Flutter personal project journey. I create a produvtivity and healty tool app. So, this app concept basically is a simple BMI (Body Mass Index) calculator. The user will get the BMI score and easy to keep track on the idel BMI.
+Hi everyone! Today I continue my Flutter personal project journey. I create a productive and healthy tool app. So, this app concept basically is a simple BMI (Body Mass Index) calculator. The user will get the BMI score and easy to keep track of the ideal BMI. Here is what my app look like:
 
 <img alt="BMI Calc" src="https://raw.githubusercontent.com/codestronaut/flutter-bmi-calculator/main/assets/Preview.jpg" />
 
