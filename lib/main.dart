@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_bmi_calculator/input_page.dart';
+import 'package:flutter_bmi_calculator/screens/screens.dart';
+import 'package:flutter_bmi_calculator/shared/constants.dart';
 
 void main() {
   runApp(BMICalculator());
@@ -16,13 +17,13 @@ class BMICalculator extends StatelessWidget {
     );
 
     return MaterialApp(
-      title: 'BMI Calculator',
+      title: kTitle,
+      debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
         primaryColor: Color(0xFF0A0E21),
         scaffoldBackgroundColor: Color(0xFF0A0E21),
       ),
       home: InputPage(),
-      debugShowCheckedModeBanner: false,
     );
   }
 }
